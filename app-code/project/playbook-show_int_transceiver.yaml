@@ -1,0 +1,10 @@
+---
+- name: DOM stats
+  hosts: dom
+  connection: network_cli
+  gather_facts: no
+
+  tasks:
+    - name: run show commands
+      ios_command:
+        commands: show interfaces transceiver

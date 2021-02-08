@@ -1,0 +1,7 @@
+[dom]
+
+
+[dom:vars]
+ansible_user=
+ansible_password=
+ansible_become_pass=
